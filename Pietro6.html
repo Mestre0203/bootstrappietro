@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>GRIMOIRES ERA WIKI - Criar conta</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style>
+        @font-face {
+            font-family: 'Arrus BT Bold OSF';
+            src: url('caminho/para/o/arquivo/Arrus-BT-Bold-OSF.ttf') format('truetype');
+            font-weight: bold;
+            font-style: normal;
+        }
+        h1 {
+            font-family: 'Candara', sans-serif;
+        }
+        body {
+            background-image: url('https://gamertweak.com/wp-content/uploads/2024/01/Grimoires-Era-Trello-Link-and-Discord.webp');
+            background-size: cover;
+            background-position: center center;
+            background-attachment: fixed;
+            min-height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-dark text-white text-center py-4">
+        <h1>GRIMOIRES ERA WIKI</h1>
+    </div>
+    <main class="container py-5">
+        <form action="/login.php" method="post">
+            <h2 class="text-left" style="color: white;">Criar conta:</h2>
+            <div class="form-group">
+                <label for="nome" style="color: white;">Informe seu nome completo:</label>
+                <input type="text" name="nome" id="nome" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="idade" style="color: white;">Informe sua idade:</label>
+                <input type="number" name="idade" id="idade" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="email" style="color: white;">Informe seu email:</label>
+                <input type="email" name="email" id="email" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="senha" style="color: white;">Informe sua senha:</label>
+                <input type="password" name="senha" id="senha" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="confirmar_senha" style="color: white;">Confirme sua senha:</label>
+                <input type="password" name="confirmar_senha" id="confirmar_senha" class="form-control" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+            <p class="mt-3 text-left" style="color: white;">Já tem uma conta? <a href="Index.html.html">Clique aqui para entrar</a></p>
+        </form>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+</html>
